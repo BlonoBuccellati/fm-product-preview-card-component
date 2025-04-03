@@ -53,9 +53,9 @@ next-env.d.ts
 ## Please do not remove line 12 - thanks! 🙂 ##
 ###############################################
 *.xd
-
 # Avoid your project being littered with annoying .DS_Store files!
 .DS_Store
 .prettierignore
-.style-guide.md
 design
+
+style-guide.md
