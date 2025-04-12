@@ -51,6 +51,8 @@ Users should be able to:
 ### What I learned
 
 - history of responsive design
+- Since the `button` tag only allows [phrasing content](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Content_categories#phrasing_content), you should not place a `div` inside a `button`.
+  Instead, use elements like `span` or `strong` if you need to apply styling or layout inside a button.
 - how to use `@utility` of tailwindCSS
 
 ```css
