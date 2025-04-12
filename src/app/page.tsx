@@ -3,7 +3,7 @@ import CartIcon from "@/assets/icon-cart.svg";
 
 export default function Home() {
   return (
-    <div className="bg-Cream text-Gray h-screen px-3 py-10 text-sm">
+    <div className="bg-Cream text-Gray h-screen px-3 pt-20 text-sm">
       <main className="bg-White grid grid-cols-1 rounded-2xl md:grid-cols-2">
         {/* 画像 */}
         <div className="relative aspect-[4/3] w-full md:aspect-[3/4]">
