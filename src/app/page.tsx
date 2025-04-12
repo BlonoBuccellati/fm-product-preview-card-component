@@ -6,7 +6,7 @@ export default function Home() {
     <div className="bg-Cream min-h-screen px-3 py-20">
       {/* カード */}
       <main className="text-Gray text-sm">
-        <div className="bg-White grid grid-cols-1 rounded-xl md:grid-cols-2">
+        <div className="bg-White grid grid-cols-1 rounded-md md:grid-cols-2">
           {/* 画像 */}
           <div className="relative aspect-[4/3] w-full md:aspect-[3/4]">
             <picture>
@@ -18,7 +18,7 @@ export default function Home() {
                 src="/images/image-product-mobile.jpg"
                 alt="chanel perfume"
                 fill
-                className="mx-auto rounded-t-xl"
+                className="mx-auto rounded-t-md"
               ></Image>
             </picture>
           </div>
@@ -38,7 +38,7 @@ export default function Home() {
               </span>
               <del>$169.99</del>
             </div>
-            <button className="bg-Green-500 hover:bg-Green-700 rounded-lg py-3 font-bold text-white hover:cursor-pointer">
+            <button className="bg-Green-500 hover:bg-Green-700 active:bg-Green-700 rounded-lg py-3 font-bold text-white hover:cursor-pointer">
               <div className="flex justify-center gap-3">
                 <Image
                   src={CartIcon}
